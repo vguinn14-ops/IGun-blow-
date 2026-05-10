@@ -1,0 +1,12 @@
+{
+  "name": "gunsim-pro-online",
+  "version": "1.0.0",
+  "description": "Original online firearm simulator inspired by mobile gun collection apps.",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 5173",
+    "check": "node --check src/main.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
