@@ -22,6 +22,18 @@ npm start
 
 Then open <http://localhost:5173>.
 
+## Publish on GitHub Pages
+
+This repo includes a GitHub Actions workflow that publishes the static app to GitHub Pages whenever changes are pushed to `main`, `master`, or `work`.
+
+1. Push this repository to GitHub.
+2. In GitHub, open **Settings → Pages**.
+3. Set **Build and deployment → Source** to **GitHub Actions**.
+4. Run the **Deploy static site to GitHub Pages** workflow or push a new commit.
+5. Open the generated `https://<username>.github.io/<repo>/` Pages URL.
+
+The app uses relative asset paths, so it works both at the root of a `github.io` site and under a project path like `/IGun-blow-/`.
+
 ## Check JavaScript syntax
 
 ```bash

@@ -4,7 +4,7 @@
   "description": "Original online firearm simulator inspired by mobile gun collection apps.",
   "type": "module",
   "scripts": {
-    "start": "python3 -m http.server 5173",
+    "start": "python3 -m http.server 5173 --bind 0.0.0.0",
     "check": "node --check src/main.js"
   },
   "dependencies": {},
